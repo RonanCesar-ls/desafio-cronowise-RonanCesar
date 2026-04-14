@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="/Main (snapshot).java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="/Main (snapshot).java" />
+              <option name="originalContent" value="package BlocoFilaProce01;&#10;&#10;import java.util.ArrayList;&#10;import java.util.List;&#10;&#10;public class Main {&#10;    public static void main (String [] args){&#10;        List&lt;Solicitacao&gt; fila = new ArrayList&lt;&gt;();&#10;        fila.add(new Solicitacao(1, &quot;NORMAL&quot;, 10));&#10;        fila.add(new Solicitacao(2, &quot;URGENTE&quot;, 20));&#10;        fila.add(new Solicitacao(3, &quot;NORMAL&quot;, 15));&#10;        fila.add(new Solicitacao(4, &quot;URGENTE&quot;, 5));&#10;    }&#10;&#10;    System.out.println(&quot;Como chegou&quot;)&#10;    fila.forEach(System.out::println);&#10;&#10;    ProcessadorFila processador = new ProcessadorFila();&#10;    processador.ordenar(fila);&#10;&#10;    System.out.println( &quot;Fila pronta pra cmeçar&quot;);&#10;    fila.forEach(System.out::println);&#10;&#10;&#10;&#10;}&#10;" />
+              <option name="updatedContent" value="package BlocoFilaProce01;&#10;&#10;import java.util.ArrayList;&#10;import java.util.List;&#10;&#10;public class Main {&#10;    public static void main (String [] args){&#10;        List&lt;Solicitacao&gt; fila = new ArrayList&lt;&gt;();&#10;        fila.add(new Solicitacao(1, &quot;NORMAL&quot;, 10));&#10;        fila.add(new Solicitacao(2, &quot;URGENTE&quot;, 20));&#10;        fila.add(new Solicitacao(3, &quot;NORMAL&quot;, 15));&#10;        fila.add(new Solicitacao(4, &quot;URGENTE&quot;, 5));&#10;&#10;        System.out.println(&quot;Como chegou&quot;);&#10;        fila.forEach(System.out::println);&#10;&#10;        ProcessadorFila processador = new ProcessadorFila();&#10;        processador.ordenar(fila);&#10;&#10;        System.out.println(&quot;Fila pronta pra começar&quot;);&#10;        fila.forEach(System.out::println);&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
